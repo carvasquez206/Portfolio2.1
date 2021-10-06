@@ -11,6 +11,7 @@ I have to:
     - flexbox
     - media queries
     - CSS variables
+    - Added Projects
 
 ## Link to Website
 - 
