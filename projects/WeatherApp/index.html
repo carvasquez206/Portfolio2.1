@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>5 Day Weather Forecast</h1>
+    </header>
+
+    <!--City Input-->
+    <div class="input">
+        <input id="cityInput" type="text" class="inputValue" placeholder="Enter City">
+        <input type="submit" class="submit" onclick="GetInfo()">
+        <h2 id="cityName">---Seattle---</h2>
+    </div>
+
+    <!--<Weather Icons>-->
+    <div id="weatherContainer">
+        <div class = "icons">
+            <p class="weather" id="day1"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img1"></div>
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day2"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img2"></div>
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day3"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img3"></div>
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day4"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img4"></div>
+        </div>
+        <div class = "icons">
+            <p class="weather" id="day5"></p>
+            <div class="image"><img src="dots.png" class="imgClass" id="img5"></div>
+        </div>   
+    </div>
+    <script src="assets/script.js"></script>
+</body>
+</html>
